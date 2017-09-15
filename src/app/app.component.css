@@ -1,0 +1,21 @@
+
+body {
+border-color: #3D0F0F;
+}
+
+div.image-banner {
+    max-width: 100%;
+    overflow: hidden;
+    margin: 0 auto;
+    padding: 0;
+    position: relative;
+  }
+div.face {
+    max-width: 100%;
+    overflow: hidden;
+    margin: 0 auto;
+    padding: 0;
+    position: relative;
+    left: 100%;
+}
+

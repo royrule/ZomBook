@@ -1,19 +1,45 @@
 <!--The content below is only a placeholder and can be replaced.-->
+<div style="position:relative"><img src="..\assets\zombie banner.jpg" width="100%" />
+    <div style="position:absolute; top:0; left:0;">
+      <img src="..\assets\banner.jpg" width="100%" alt="banner image" align="middle">
+    </div>
 
-<img id="image" src="..\assets\zombie banner.jpg" alt="banner image" width="100%" align="middle"> 
-<br>
-<div class="btn-group" data-toggle="buttons">
-    <label class="btn btn-secondary">
-      <input type="checkbox"  autocomplete="off"> Mis historietas
-    </label>
-    <label class="btn btn-secondary">
-      <input type="checkbox" autocomplete="off"> Mis cosas
-    </label>
-    <label class="btn btn-secondary">
-      <input type="checkbox" autocomplete="off"> Mis partners
-    </label>
+<div align="center">
+  <div class="btn-group" data-toggle="buttons">
+    <nav class="navbar navbar-toggleable-md navbar-light bg-faded">
+      <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+      <a class="navbar-brand" href="#"></a>
 
-  <label class="btn btn-secondary">
-    <input type="checkbox" autocomplete="off"> Hunger games
-  </label>
+      <div class="collapse navbar-collapse" id="nav" >
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active active">
+            <a class="nav-link" href="">My histories</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">My cosas</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Partners</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Hunger games</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
 </div>
+<div align="center">
+      <app-persons></app-persons>
+</div>
+<div align="center">
+      <app-histories-list></app-histories-list>
+</div>
+
+    <footer>
+      <p>Copyright Alguien - 2017 - ZomBook - Tu red social si estas muerto </p>
+    </footer>
+  </div>
